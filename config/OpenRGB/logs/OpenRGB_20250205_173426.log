@@ -1,0 +1,47 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250205_173426
+====================================================================================================
+
+0     |Info:    Found file: Green.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Green
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    |               Start device detection               |
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    Initializing HID interfaces: Success
+1039  |Info:    ------------------------------------------------------
+1040  |Info:    |             Detecting I2C interfaces               |
+1040  |Info:    ------------------------------------------------------
+1040  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1040  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1040  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:15DD Subsystem: 1002:15DD
+1040  |Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1022:790B
+1040  |Info:    Registering I2C interface: /dev/i2c-4 Device 1022:790B Subsystem: 1022:790B
+1040  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:15DD Subsystem: 1002:15DD
+1040  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:15DD Subsystem: 1002:15DD
+1040  |Info:    Registering I2C interface: /dev/i2c-5 Device 1022:790B Subsystem: 1022:790B
+1040  |Info:    ------------------------------------------------------
+1040  |Info:    |               Detecting I2C devices                |
+1040  |Info:    ------------------------------------------------------
+2108  |Info:    ------------------------------------------------------
+2108  |Info:    |               Detecting I2C PCI devices            |
+2108  |Info:    ------------------------------------------------------
+2111  |Info:    ------------------------------------------------------
+2111  |Info:    |               Detecting HID devices                |
+2111  |Info:    ------------------------------------------------------
+2201  |Info:    [KLM] Created new Full 104 key ANSI QWERTY with 6 rows and 21 columns containing 104 keys
+2201  |Info:    [Razer Blackwidow V3 Pro (Wired)] Registering RGB controller
+2273  |Info:    [Razer Basilisk Ultimate (Wireless)] Registering RGB controller
+2345  |Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+2345  |Info:    ------------------------------------------------------
+2345  |Info:    |            Detecting libusb HID devices            |
+2345  |Info:    ------------------------------------------------------
+2878  |Info:    ------------------------------------------------------
+2878  |Info:    |              Detecting other devices               |
+2878  |Info:    ------------------------------------------------------
+2916  |Info:    ------------------------------------------------------
+2916  |Info:    |                Detection completed                 |
+2916  |Info:    ------------------------------------------------------
+14956 |Info:    Profile loading: Succeeded for Razer Blackwidow V3 Pro (Wired) @ HID: /dev/hidraw3
+14956 |Info:    Profile loading: Succeeded for Razer Basilisk Ultimate (Wireless) @ HID: /dev/hidraw7
+14956 |Info:    Profile loading: Succeeded for Razer Mouse Dock Chroma @ HID: /dev/hidraw10

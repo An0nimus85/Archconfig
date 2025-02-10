@@ -1,0 +1,112 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250205_172357
+====================================================================================================
+
+1003  |Info:    Saving detector settings
+1013  |Info:    ------------------------------------------------------
+1013  |Info:    |               Start device detection               |
+1013  |Info:    ------------------------------------------------------
+1014  |Info:    Initializing HID interfaces: Success
+1035  |Info:    ------------------------------------------------------
+1035  |Info:    |             Detecting I2C interfaces               |
+1035  |Info:    ------------------------------------------------------
+1035  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1035  |Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+1035  |Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1022:790B
+1035  |Info:    Registering I2C interface: /dev/i2c-4 Device 1022:790B Subsystem: 1022:790B
+1035  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:15DD Subsystem: 1002:15DD
+1035  |Info:    Registering I2C interface: /dev/i2c-5 Device 1022:790B Subsystem: 1022:790B
+1035  |Info:    ------------------------------------------------------
+1035  |Info:    |               Detecting I2C devices                |
+1035  |Info:    ------------------------------------------------------
+1871  |Info:    ------------------------------------------------------
+1871  |Info:    |               Detecting I2C PCI devices            |
+1871  |Info:    ------------------------------------------------------
+1874  |Info:    ------------------------------------------------------
+1874  |Info:    |               Detecting HID devices                |
+1874  |Info:    ------------------------------------------------------
+1947  |Info:    [Razer Basilisk Ultimate (Wireless)] Registering RGB controller
+2019  |Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+2019  |Info:    ------------------------------------------------------
+2019  |Info:    |            Detecting libusb HID devices            |
+2019  |Info:    ------------------------------------------------------
+2418  |Info:    ------------------------------------------------------
+2418  |Info:    |              Detecting other devices               |
+2418  |Info:    ------------------------------------------------------
+2435  |Info:    ------------------------------------------------------
+2435  |Info:    |                Detection completed                 |
+2435  |Info:    ------------------------------------------------------
+2435  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+106515|Info:    ------------------------------------------------------
+106515|Info:    |               Start device detection               |
+106515|Info:    ------------------------------------------------------
+106516|Info:    Initializing HID interfaces: Success
+106538|Info:    ------------------------------------------------------
+106538|Info:    |             Detecting I2C interfaces               |
+106538|Info:    ------------------------------------------------------
+106538|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+106538|Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+106538|Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1022:790B
+106538|Info:    Registering I2C interface: /dev/i2c-4 Device 1022:790B Subsystem: 1022:790B
+106538|Info:    Registering I2C interface: /dev/i2c-0 Device 1002:15DD Subsystem: 1002:15DD
+106538|Info:    Registering I2C interface: /dev/i2c-5 Device 1022:790B Subsystem: 1022:790B
+106538|Info:    ------------------------------------------------------
+106538|Info:    |               Detecting I2C devices                |
+106538|Info:    ------------------------------------------------------
+107373|Info:    ------------------------------------------------------
+107373|Info:    |               Detecting I2C PCI devices            |
+107373|Info:    ------------------------------------------------------
+107374|Info:    ------------------------------------------------------
+107374|Info:    |               Detecting HID devices                |
+107374|Info:    ------------------------------------------------------
+107446|Info:    [Razer Basilisk Ultimate (Wireless)] Registering RGB controller
+107518|Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+107518|Info:    ------------------------------------------------------
+107518|Info:    |            Detecting libusb HID devices            |
+107518|Info:    ------------------------------------------------------
+107898|Info:    ------------------------------------------------------
+107898|Info:    |              Detecting other devices               |
+107898|Info:    ------------------------------------------------------
+107901|Info:    ------------------------------------------------------
+107901|Info:    |                Detection completed                 |
+107901|Info:    ------------------------------------------------------
+107901|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+141726|Info:    ------------------------------------------------------
+141726|Info:    |               Start device detection               |
+141726|Info:    ------------------------------------------------------
+141726|Info:    Initializing HID interfaces: Success
+141748|Info:    ------------------------------------------------------
+141748|Info:    |             Detecting I2C interfaces               |
+141748|Info:    ------------------------------------------------------
+141748|Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+141748|Info:    Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+141749|Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1022:790B
+141749|Info:    Registering I2C interface: /dev/i2c-4 Device 1022:790B Subsystem: 1022:790B
+141749|Info:    Registering I2C interface: /dev/i2c-0 Device 1002:15DD Subsystem: 1002:15DD
+141749|Info:    Registering I2C interface: /dev/i2c-5 Device 1022:790B Subsystem: 1022:790B
+141749|Info:    ------------------------------------------------------
+141749|Info:    |               Detecting I2C devices                |
+141749|Info:    ------------------------------------------------------
+142583|Info:    ------------------------------------------------------
+142583|Info:    |               Detecting I2C PCI devices            |
+142583|Info:    ------------------------------------------------------
+142586|Info:    ------------------------------------------------------
+142586|Info:    |               Detecting HID devices                |
+142586|Info:    ------------------------------------------------------
+142676|Info:    [KLM] Created new Full 104 key ANSI QWERTY with 6 rows and 21 columns containing 104 keys
+142676|Info:    [Razer Blackwidow V3 Pro (Wired)] Registering RGB controller
+142748|Info:    [Razer Basilisk Ultimate (Wireless)] Registering RGB controller
+142820|Info:    [Razer Mouse Dock Chroma] Registering RGB controller
+142820|Info:    ------------------------------------------------------
+142820|Info:    |            Detecting libusb HID devices            |
+142820|Info:    ------------------------------------------------------
+143309|Info:    ------------------------------------------------------
+143309|Info:    |              Detecting other devices               |
+143309|Info:    ------------------------------------------------------
+143313|Info:    ------------------------------------------------------
+143313|Info:    |                Detection completed                 |
+143313|Info:    ------------------------------------------------------
+143313|Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+281364|Info:    Found file: Green.orp attempting to validate header
+281364|Info:    Valid v4 profile found for Green
